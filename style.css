@@ -42,7 +42,8 @@ body {
     font-family: «Crakra Petch», sans-serif; 
     background-color: var(--botao-inativo); 
     color: var(--branco); 
-    display: flex; 
+    display:grid; 
+    grid-template-columns: 25% 50% 25%;
     justify-content: center; 
     padding: 1em; 
     font-size: 18px; 
@@ -52,6 +53,7 @@ body {
     border-left: 2px solid var(--botao-ativo);  
     border-right: 2px solid var(--botao-ativo);  
     border-top: none;
+
 }
 
 .botao:first-child { 
