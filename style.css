@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-image: -webkit-image-set(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSjEtrm5-wX4l_A7bLJr3S-qe4otPFkBjZ1w&usqp=CAU);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
